@@ -34,6 +34,8 @@ Steps to prepare HTML File
   6). take a snapshot of the staging area by using the command $ git commit -m "comment"
   7). provide the path for the repository you created on Github by using the command $ git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
   8). push changes to Github by using the command $ git push -u origin main
+  9). git add . command can be use to add all files of a folder to git
+  10).we can use SSH keypair to establish connection with github, inorder to avoid typing the username and password everything you git
   
  
        
