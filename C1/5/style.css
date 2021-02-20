@@ -1,0 +1,15 @@
+body{
+    background-color:black;
+
+}
+h1{
+    color:#FFFFFF;
+    font-family:monospace;
+    font-style: italic;
+}
+.normandy{
+    color:#FFFFFF;
+    font-size:18px;
+    font-family: sans-serif;
+    font-style: bold;
+}
