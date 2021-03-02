@@ -1,0 +1,43 @@
+<!--Create a HTML page with different types of frames such as floating frame,
+navigation frame & mixed frame.-->
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <frameset cols="25%,25%,25%,25%">
+            <frame name="top" src="https://www.keralauniversity.ac.in/"/>
+            <frame name="top" src="https://www.ajio.com/shop/women"/>
+            <frame name="top" src="https://tkmce.ac.in/">
+            <frame name="top" src="http://ihrd.ac.in/">
+            </frameset>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>THIS IS FLOATING FRAME</h1>
+        <iframe src="https://en.wikipedia.org/wiki/Friends"width="400px"height="300px"></iframe>
+        
+            <p>Navigation Frame</p>
+        <br>
+         
+        <frameset cols = "300, *">
+           <frame src = "navi_menu.html" name = "menu_page" />
+           <frame src = "navi_body.html" name = "main_page" />
+           
+           <noframes>
+              <body>Your browser does not support frames.</body>
+           </noframes>
+        <script src="" async defer></script>
+    </body>
+</html>
