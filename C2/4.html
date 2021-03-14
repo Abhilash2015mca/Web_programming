@@ -1,15 +1,11 @@
-#Evaluating JavaScript Event Handling for every click of a button to change the
-#background color of a HTML page
+<!--Evaluating JavaScript Event Handling for every click of a button to change the background color of a HTML page-->
 <html>
-
 <head>
     <script type="text/javascript">
         function get_random_color() {
             var color = '#';
             for (var i = 0; i < 6; i++) {
                 color += Math.round(Math.random()) * 7;
-                console.log(i);
-                console.log(color);
             }
             document.body.style.background = color;
         }

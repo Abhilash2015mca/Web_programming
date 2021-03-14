@@ -1,0 +1,28 @@
+<!--Create a HTML page to display a new image and text when the mouse comes over
+the existing content in the page using JavaScript Event Handling-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+            <img id = "mouse" onmouseover="over()" onmouseout="out()" width = "500px" height="500px" src ="https://2.bp.blogspot.com/-w9Ws-AOMEvY/V8bLbCL1PWI/AAAAAAAAGuQ/SVUbzQmEl8wdkhkNt6k8em0wQr16ELWBQCLcB/s1600/javascript_onmouseover_event_computer.jpg">
+        <script>
+           function over()
+           {
+        console.log("over");
+           document.getElementById("mouse").src="https://img.favpng.com/11/14/21/computer-mouse-pointer-computer-icons-cursor-point-and-click-png-favpng-AgdAG3yK3C0NDdK5khpVtPjAd.jpg";
+           }
+           function out()
+           {
+        console.log("out");
+           document.getElementById("mouse").src="https://2.bp.blogspot.com/-w9Ws-AOMEvY/V8bLbCL1PWI/AAAAAAAAGuQ/SVUbzQmEl8wdkhkNt6k8em0wQr16ELWBQCLcB/s1600/javascript_onmouseover_event_computer.jpg";
+           }
+        </script>
+    </body>
+</html>

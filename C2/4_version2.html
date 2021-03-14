@@ -1,0 +1,25 @@
+<!--Evaluating JavaScript Event Handling for every click of a button to change the background color of a HTML page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <button type="button"onclick="change()">CLICK TO CHANGE THE BACKGROUND COLOR</button>
+        <script>
+                function change(){
+                    let x = Math.round(Math.random()*100)
+                    let y = Math.round(Math.random()*150)
+                    let z = Math.round(Math.random()*180)
+                    let color = "rgb("+x+","+y+","+z+")"
+                    document.body.style.background = color
+                    console.log(color)
+                }
+        </script>
+    </body>
+</html>
