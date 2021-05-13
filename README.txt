@@ -1,5 +1,7 @@
 # Web_programming
+
 Steps to prepare HTML File
+
 1). Use any text editor for wrting html file and save the file with the file extension .html
 2). basic synatax of html file is 
                 <!DOCTYPE html>
